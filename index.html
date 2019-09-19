@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>808 Simon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=Orbitron:500|Righteous|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -29,8 +30,41 @@
 
 </head>
 
-<body>
-
+<body> 
+<div id = "808Box">
+    <div id = "power">
+        <input type = "button" class="toggle" id="on">
+        <div class = "powerText">Power</div>
+    </div>
+    <div id = "feedback"></div>
+    <div id = "808Title" class = "font">
+        <h1>Memory game</h1>
+        <h4>808 Simon</h4>
+        <hr>
+    </div>
+    <div id = "808Control">
+        <input type="checkbox" class ="toggle" id = "on">
+        <div class="difficulty">Difficulty
+        </div>
+        <button class="button" id="start">Start/Stop</button>
+    </div>
+    <div id = "808Buttons">
+        <div id = "BDButton">1</div>
+        <div id = "SDButton">2</div>
+        <div id = "CBButton">3</div>
+        <div id = "MAButton">4</div>
+    </div>
+    <div id="instructions">
+        <h6>How to play:<br>
+            Power up,<br>
+            Select difficulty,<br>
+            Press Start/Stop,<br>
+            Copy pattern, <br>
+            win by completing 20 pattens!, <br>
+            Good Luck!,    
+        </h6>
+    </div>
+</div>
 </body>
 
 </html>
